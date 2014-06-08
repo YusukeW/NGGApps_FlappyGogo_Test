@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  FlappyGogo
 //
-//  Created by Yusuke Wakui on 6/8/14.
+//  Created by Yusuke on 6/8/14.
 //  Copyright (c) 2014 7gogoApps. All rights reserved.
 //
 

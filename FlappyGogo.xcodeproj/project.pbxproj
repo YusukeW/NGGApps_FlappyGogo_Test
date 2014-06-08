@@ -18,13 +18,16 @@
 		70ECB5A61944130000863C76 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5A41944130000863C76 /* Main_iPad.storyboard */; };
 		70ECB5A91944130000863C76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB5A81944130000863C76 /* ViewController.m */; };
 		70ECB5AC1944130000863C76 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB5AB1944130000863C76 /* MyScene.m */; };
-		70ECB5AE1944130000863C76 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5AD1944130000863C76 /* Spaceship.png */; };
 		70ECB5B01944130000863C76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5AF1944130000863C76 /* Images.xcassets */; };
 		70ECB5B71944130000863C76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB5B61944130000863C76 /* XCTest.framework */; };
 		70ECB5B81944130000863C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB58D1944130000863C76 /* Foundation.framework */; };
 		70ECB5B91944130000863C76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB5911944130000863C76 /* UIKit.framework */; };
 		70ECB5C11944130000863C76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5BF1944130000863C76 /* InfoPlist.strings */; };
 		70ECB5C31944130000863C76 /* FlappyGogoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB5C21944130000863C76 /* FlappyGogoTests.m */; };
+		70ECB5CE194413A300863C76 /* SpriteKitTest01_tacochu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5CD194413A300863C76 /* SpriteKitTest01_tacochu@2x.png */; };
+		70ECB5D21944465900863C76 /* SpriteKitTest01_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5D11944465900863C76 /* SpriteKitTest01_background@2x.png */; };
+		70ECB5D51944927E00863C76 /* SpriteKitTest01_obstacle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5D41944927E00863C76 /* SpriteKitTest01_obstacle@2x.png */; };
+		70ECB5D719449E7200863C76 /* se_maoudamashii_magical05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5D619449E7200863C76 /* se_maoudamashii_magical05.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +58,17 @@
 		70ECB5A81944130000863C76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		70ECB5AA1944130000863C76 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		70ECB5AB1944130000863C76 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		70ECB5AD1944130000863C76 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		70ECB5AF1944130000863C76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		70ECB5B51944130000863C76 /* FlappyGogoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyGogoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70ECB5B61944130000863C76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		70ECB5BE1944130000863C76 /* FlappyGogoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyGogoTests-Info.plist"; sourceTree = "<group>"; };
 		70ECB5C01944130000863C76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70ECB5C21944130000863C76 /* FlappyGogoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyGogoTests.m; sourceTree = "<group>"; };
+		70ECB5CD194413A300863C76 /* SpriteKitTest01_tacochu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpriteKitTest01_tacochu@2x.png"; sourceTree = "<group>"; };
+		70ECB5D11944465900863C76 /* SpriteKitTest01_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpriteKitTest01_background@2x.png"; sourceTree = "<group>"; };
+		70ECB5D3194482D000863C76 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		70ECB5D41944927E00863C76 /* SpriteKitTest01_obstacle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpriteKitTest01_obstacle@2x.png"; sourceTree = "<group>"; };
+		70ECB5D619449E7200863C76 /* se_maoudamashii_magical05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_maoudamashii_magical05.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +130,7 @@
 		70ECB5951944130000863C76 /* FlappyGogo */ = {
 			isa = PBXGroup;
 			children = (
+				70ECB5D3194482D000863C76 /* Constants.h */,
 				70ECB59E1944130000863C76 /* AppDelegate.h */,
 				70ECB59F1944130000863C76 /* AppDelegate.m */,
 				70ECB5A11944130000863C76 /* Main_iPhone.storyboard */,
@@ -131,8 +139,8 @@
 				70ECB5A81944130000863C76 /* ViewController.m */,
 				70ECB5AA1944130000863C76 /* MyScene.h */,
 				70ECB5AB1944130000863C76 /* MyScene.m */,
-				70ECB5AD1944130000863C76 /* Spaceship.png */,
 				70ECB5AF1944130000863C76 /* Images.xcassets */,
+				70ECB5CC1944138900863C76 /* Resources */,
 				70ECB5961944130000863C76 /* Supporting Files */,
 			);
 			path = FlappyGogo;
@@ -165,6 +173,17 @@
 				70ECB5BF1944130000863C76 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70ECB5CC1944138900863C76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70ECB5D619449E7200863C76 /* se_maoudamashii_magical05.mp3 */,
+				70ECB5D41944927E00863C76 /* SpriteKitTest01_obstacle@2x.png */,
+				70ECB5D11944465900863C76 /* SpriteKitTest01_background@2x.png */,
+				70ECB5CD194413A300863C76 /* SpriteKitTest01_tacochu@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70ECB5AE1944130000863C76 /* Spaceship.png in Resources */,
+				70ECB5D21944465900863C76 /* SpriteKitTest01_background@2x.png in Resources */,
+				70ECB5D51944927E00863C76 /* SpriteKitTest01_obstacle@2x.png in Resources */,
 				70ECB5B01944130000863C76 /* Images.xcassets in Resources */,
 				70ECB5A61944130000863C76 /* Main_iPad.storyboard in Resources */,
 				70ECB5A31944130000863C76 /* Main_iPhone.storyboard in Resources */,
+				70ECB5CE194413A300863C76 /* SpriteKitTest01_tacochu@2x.png in Resources */,
+				70ECB5D719449E7200863C76 /* se_maoudamashii_magical05.mp3 in Resources */,
 				70ECB59A1944130000863C76 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
