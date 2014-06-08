@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70ECB58E1944130000863C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB58D1944130000863C76 /* Foundation.framework */; };
+		70ECB5901944130000863C76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB58F1944130000863C76 /* CoreGraphics.framework */; };
+		70ECB5921944130000863C76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB5911944130000863C76 /* UIKit.framework */; };
+		70ECB5941944130000863C76 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB5931944130000863C76 /* SpriteKit.framework */; };
+		70ECB59A1944130000863C76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5981944130000863C76 /* InfoPlist.strings */; };
+		70ECB59C1944130000863C76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB59B1944130000863C76 /* main.m */; };
+		70ECB5A01944130000863C76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB59F1944130000863C76 /* AppDelegate.m */; };
+		70ECB5A31944130000863C76 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5A11944130000863C76 /* Main_iPhone.storyboard */; };
+		70ECB5A61944130000863C76 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5A41944130000863C76 /* Main_iPad.storyboard */; };
+		70ECB5A91944130000863C76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB5A81944130000863C76 /* ViewController.m */; };
+		70ECB5AC1944130000863C76 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB5AB1944130000863C76 /* MyScene.m */; };
+		70ECB5AE1944130000863C76 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5AD1944130000863C76 /* Spaceship.png */; };
+		70ECB5B01944130000863C76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5AF1944130000863C76 /* Images.xcassets */; };
+		70ECB5B71944130000863C76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB5B61944130000863C76 /* XCTest.framework */; };
+		70ECB5B81944130000863C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB58D1944130000863C76 /* Foundation.framework */; };
+		70ECB5B91944130000863C76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ECB5911944130000863C76 /* UIKit.framework */; };
+		70ECB5C11944130000863C76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70ECB5BF1944130000863C76 /* InfoPlist.strings */; };
+		70ECB5C31944130000863C76 /* FlappyGogoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ECB5C21944130000863C76 /* FlappyGogoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70ECB5BA1944130000863C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70ECB5821944130000863C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70ECB5891944130000863C76;
+			remoteInfo = FlappyGogo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70ECB58A1944130000863C76 /* FlappyGogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyGogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ECB58D1944130000863C76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70ECB58F1944130000863C76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70ECB5911944130000863C76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70ECB5931944130000863C76 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		70ECB5971944130000863C76 /* FlappyGogo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyGogo-Info.plist"; sourceTree = "<group>"; };
+		70ECB5991944130000863C76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70ECB59B1944130000863C76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70ECB59D1944130000863C76 /* FlappyGogo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlappyGogo-Prefix.pch"; sourceTree = "<group>"; };
+		70ECB59E1944130000863C76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70ECB59F1944130000863C76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70ECB5A21944130000863C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		70ECB5A51944130000863C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		70ECB5A71944130000863C76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70ECB5A81944130000863C76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70ECB5AA1944130000863C76 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		70ECB5AB1944130000863C76 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		70ECB5AD1944130000863C76 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		70ECB5AF1944130000863C76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70ECB5B51944130000863C76 /* FlappyGogoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyGogoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ECB5B61944130000863C76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		70ECB5BE1944130000863C76 /* FlappyGogoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyGogoTests-Info.plist"; sourceTree = "<group>"; };
+		70ECB5C01944130000863C76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70ECB5C21944130000863C76 /* FlappyGogoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyGogoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70ECB5871944130000863C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB5901944130000863C76 /* CoreGraphics.framework in Frameworks */,
+				70ECB5921944130000863C76 /* UIKit.framework in Frameworks */,
+				70ECB5941944130000863C76 /* SpriteKit.framework in Frameworks */,
+				70ECB58E1944130000863C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECB5B21944130000863C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB5B71944130000863C76 /* XCTest.framework in Frameworks */,
+				70ECB5B91944130000863C76 /* UIKit.framework in Frameworks */,
+				70ECB5B81944130000863C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70ECB5811944130000863C76 = {
+			isa = PBXGroup;
+			children = (
+				70ECB5951944130000863C76 /* FlappyGogo */,
+				70ECB5BC1944130000863C76 /* FlappyGogoTests */,
+				70ECB58C1944130000863C76 /* Frameworks */,
+				70ECB58B1944130000863C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70ECB58B1944130000863C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70ECB58A1944130000863C76 /* FlappyGogo.app */,
+				70ECB5B51944130000863C76 /* FlappyGogoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70ECB58C1944130000863C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70ECB58D1944130000863C76 /* Foundation.framework */,
+				70ECB58F1944130000863C76 /* CoreGraphics.framework */,
+				70ECB5911944130000863C76 /* UIKit.framework */,
+				70ECB5931944130000863C76 /* SpriteKit.framework */,
+				70ECB5B61944130000863C76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70ECB5951944130000863C76 /* FlappyGogo */ = {
+			isa = PBXGroup;
+			children = (
+				70ECB59E1944130000863C76 /* AppDelegate.h */,
+				70ECB59F1944130000863C76 /* AppDelegate.m */,
+				70ECB5A11944130000863C76 /* Main_iPhone.storyboard */,
+				70ECB5A41944130000863C76 /* Main_iPad.storyboard */,
+				70ECB5A71944130000863C76 /* ViewController.h */,
+				70ECB5A81944130000863C76 /* ViewController.m */,
+				70ECB5AA1944130000863C76 /* MyScene.h */,
+				70ECB5AB1944130000863C76 /* MyScene.m */,
+				70ECB5AD1944130000863C76 /* Spaceship.png */,
+				70ECB5AF1944130000863C76 /* Images.xcassets */,
+				70ECB5961944130000863C76 /* Supporting Files */,
+			);
+			path = FlappyGogo;
+			sourceTree = "<group>";
+		};
+		70ECB5961944130000863C76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70ECB5971944130000863C76 /* FlappyGogo-Info.plist */,
+				70ECB5981944130000863C76 /* InfoPlist.strings */,
+				70ECB59B1944130000863C76 /* main.m */,
+				70ECB59D1944130000863C76 /* FlappyGogo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70ECB5BC1944130000863C76 /* FlappyGogoTests */ = {
+			isa = PBXGroup;
+			children = (
+				70ECB5C21944130000863C76 /* FlappyGogoTests.m */,
+				70ECB5BD1944130000863C76 /* Supporting Files */,
+			);
+			path = FlappyGogoTests;
+			sourceTree = "<group>";
+		};
+		70ECB5BD1944130000863C76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70ECB5BE1944130000863C76 /* FlappyGogoTests-Info.plist */,
+				70ECB5BF1944130000863C76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70ECB5891944130000863C76 /* FlappyGogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ECB5C61944130000863C76 /* Build configuration list for PBXNativeTarget "FlappyGogo" */;
+			buildPhases = (
+				70ECB5861944130000863C76 /* Sources */,
+				70ECB5871944130000863C76 /* Frameworks */,
+				70ECB5881944130000863C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyGogo;
+			productName = FlappyGogo;
+			productReference = 70ECB58A1944130000863C76 /* FlappyGogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70ECB5B41944130000863C76 /* FlappyGogoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ECB5C91944130000863C76 /* Build configuration list for PBXNativeTarget "FlappyGogoTests" */;
+			buildPhases = (
+				70ECB5B11944130000863C76 /* Sources */,
+				70ECB5B21944130000863C76 /* Frameworks */,
+				70ECB5B31944130000863C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70ECB5BB1944130000863C76 /* PBXTargetDependency */,
+			);
+			name = FlappyGogoTests;
+			productName = FlappyGogoTests;
+			productReference = 70ECB5B51944130000863C76 /* FlappyGogoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70ECB5821944130000863C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 7gogoApps;
+				TargetAttributes = {
+					70ECB5B41944130000863C76 = {
+						TestTargetID = 70ECB5891944130000863C76;
+					};
+				};
+			};
+			buildConfigurationList = 70ECB5851944130000863C76 /* Build configuration list for PBXProject "FlappyGogo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70ECB5811944130000863C76;
+			productRefGroup = 70ECB58B1944130000863C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70ECB5891944130000863C76 /* FlappyGogo */,
+				70ECB5B41944130000863C76 /* FlappyGogoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70ECB5881944130000863C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB5AE1944130000863C76 /* Spaceship.png in Resources */,
+				70ECB5B01944130000863C76 /* Images.xcassets in Resources */,
+				70ECB5A61944130000863C76 /* Main_iPad.storyboard in Resources */,
+				70ECB5A31944130000863C76 /* Main_iPhone.storyboard in Resources */,
+				70ECB59A1944130000863C76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECB5B31944130000863C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB5C11944130000863C76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70ECB5861944130000863C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB5AC1944130000863C76 /* MyScene.m in Sources */,
+				70ECB5A91944130000863C76 /* ViewController.m in Sources */,
+				70ECB5A01944130000863C76 /* AppDelegate.m in Sources */,
+				70ECB59C1944130000863C76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECB5B11944130000863C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB5C31944130000863C76 /* FlappyGogoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70ECB5BB1944130000863C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70ECB5891944130000863C76 /* FlappyGogo */;
+			targetProxy = 70ECB5BA1944130000863C76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70ECB5981944130000863C76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70ECB5991944130000863C76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70ECB5A11944130000863C76 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70ECB5A21944130000863C76 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		70ECB5A41944130000863C76 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70ECB5A51944130000863C76 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		70ECB5BF1944130000863C76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70ECB5C01944130000863C76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70ECB5C41944130000863C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70ECB5C51944130000863C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70ECB5C71944130000863C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGogo/FlappyGogo-Prefix.pch";
+				INFOPLIST_FILE = "FlappyGogo/FlappyGogo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70ECB5C81944130000863C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGogo/FlappyGogo-Prefix.pch";
+				INFOPLIST_FILE = "FlappyGogo/FlappyGogo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70ECB5CA1944130000863C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyGogo.app/FlappyGogo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGogo/FlappyGogo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlappyGogoTests/FlappyGogoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		70ECB5CB1944130000863C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyGogo.app/FlappyGogo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappyGogo/FlappyGogo-Prefix.pch";
+				INFOPLIST_FILE = "FlappyGogoTests/FlappyGogoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70ECB5851944130000863C76 /* Build configuration list for PBXProject "FlappyGogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ECB5C41944130000863C76 /* Debug */,
+				70ECB5C51944130000863C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ECB5C61944130000863C76 /* Build configuration list for PBXNativeTarget "FlappyGogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ECB5C71944130000863C76 /* Debug */,
+				70ECB5C81944130000863C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70ECB5C91944130000863C76 /* Build configuration list for PBXNativeTarget "FlappyGogoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ECB5CA1944130000863C76 /* Debug */,
+				70ECB5CB1944130000863C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70ECB5821944130000863C76 /* Project object */;
+}
